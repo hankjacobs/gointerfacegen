@@ -17,8 +17,8 @@ import (
 const usage = `gointefacegen <type> <interface> <file>
 
 Generates an interface from the type's methods found in the specified file. File must be valid go source. 
-If the already interface exists, it is updated in place with the methods found for the type. 
-Default behavior prints the resulting file containing the interface to standard out. 
+If the interface already exists, it is updated in place.
+Default behavior prints the resulting file with the new or updated interface to standard out. 
 
 Examples:
 gointefacegen somecustomtype somecustominterface src.go
