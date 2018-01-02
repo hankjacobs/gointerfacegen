@@ -46,7 +46,7 @@ func (t example) Second(one, two string) (named example, other example) {
 running:
 
 ```shell
-gointerfacegen example ExampleInteface demo.go
+gointerfacegen example ExampleInterface demo.go
 ```
 
 will produce:
